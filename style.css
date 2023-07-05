@@ -1,0 +1,83 @@
+.img-circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 8px;
+    border: 1px solid black;
+    background-image: url(assets/avatar-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.my-custom-circle{
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    margin-right: 5px;
+    border: 1px solid black;
+    display: flex;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.my-custom-circle-nav{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 5px;
+    border: 1px solid black;
+    display: flex;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.my-custom-circle img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+
+.my-custom-circle-span{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 5px;
+    border: 1px solid black;
+   background-color: rgb(211, 181, 83);
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.my-custom-star i{
+    color: yellow;
+}
+
+.carousel-item row{
+    width: 500px;
+}
+
+@font-face {
+    font-family: 'ciao';
+    src: url(assets/feather.ttf);
+}
+
+body{
+    font-family: 'ciao', arial, helvetica, sans-serif;
+}
+
+.carousel-control-prev{
+    left: -30px;
+    
+}
+
+.carousel-control-next{
+    right: -30px;
+}
